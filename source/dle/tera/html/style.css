@@ -1,0 +1,377 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	overflow-x: hidden;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+  margin: 0 0 0 -148px;
+  width: 1280px;
+	height: 522px;
+	background-image: url("images/head.jpg");
+	background-position: center top;
+
+}
+
+
+/* Content
+-----------------------------------------------------------------------------*/
+#content {
+	background: url("images/content/contbg.png") repeat-y scroll center top transparent;
+  clear: both;
+  margin: auto;
+  padding: 0;
+  width: 953px;
+  height: 1100px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.topcontbg {
+  background: url("images/content/contbg-top.png") no-repeat scroll center top transparent;
+  width: 953px;
+  height: 10px;
+  margin: -150px auto 0;
+}
+
+.buttomcontbg {
+  background: url("images/content/contbg-button.png") no-repeat scroll center bottom transparent;
+  width: 953px;
+  height: 10px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+/*Меню
+-----------------------------------------------------------------------------*/
+#box1 {
+  margin: 0 auto 0px;
+  width: 930px;
+  height: 60px;
+
+  border: 1px solid #989898;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+/*Первая кнопка меню
+-----------------------------------------------------------------------------*/
+.menu1 {
+  margin: 0 auto 0;
+  width: 235px;
+  height: 60px;
+  float: left;
+}
+.navmenu {
+  width: 72px;
+  height: 40px;
+  display: block;
+  color: #fff;
+  background-color: #02060a;
+  padding-left: 163px;
+  padding-top: 20px;
+  outline: none;
+  text-decoration: none;
+  font-size:14px;
+  float: left;
+
+
+  background-image: url(images/polocmenu.png);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+
+}
+.navmenu span {
+  display: block;
+  line-height: 10px;
+  padding: 5px 0 0 0;
+}
+.navmenu:hover {
+  background-color: #a9780f;
+
+}
+.navmenu:hover span {
+  color: #fff;
+}
+
+/*Вторая кнопка меню
+-----------------------------------------------------------------------------*/
+.menu2 {
+  width: 139px;
+  height: 60px;
+  float: left;
+}
+.navmenu2 {
+  width: 139px;
+  height: 40px;
+  display: block;
+  color: #fff;
+  background-color: #02060a;
+
+  padding-top: 20px;
+  outline: none;
+  text-decoration: none;
+  font-size:14px;
+  float: left;
+  text-align: center;
+
+  background-image: url(images/polocmenu.png);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+
+}
+.navmenu2 span {
+  display: block;
+  line-height: 10px;
+  padding: 5px 0 0 0;
+}
+.navmenu2:hover {
+  background-color: #a9780f;
+
+
+}
+.navmenu2:hover span {
+  color: #fff;
+}
+/*Первая кнопка меню
+-----------------------------------------------------------------------------*/
+.menu3 {
+  width: 139px;
+  height: 60px;
+  float: left;
+}
+/*Четвертая кнопка меню
+-----------------------------------------------------------------------------*/
+.menu4 {
+  width: 139px;
+  height: 60px;
+  float: left;
+}
+/*Пятая кнопка меню
+-----------------------------------------------------------------------------*/
+.menu5 {
+  width: 139px;
+  height: 60px;
+  float: left;
+}
+/*Шестая кнопка меню
+-----------------------------------------------------------------------------*/
+.menu6 {
+  width: 139px;
+  height: 60px;
+  float: left;
+}
+.navmenu6 {
+  width: 139px;
+  height: 40px;
+  display: block;
+  color: #fff;
+  background-color: #02060a;
+
+  padding-top: 20px;
+  outline: none;
+  text-decoration: none;
+  font-size:14px;
+  float: left;
+  text-align: center;
+}
+.navmenu6 span {
+  display: block;
+  line-height: 10px;
+  padding: 5px 0 0 0;
+}
+.navmenu6:hover {
+  background-color: #a9780f;
+
+
+}
+.navmenu6:hover span {
+  color: #fff;
+}
+
+/*Конец горизонтального меню
+-----------------------------------------------------------------------------*/
+
+#box2 {
+  margin: 0px 5px 0 20px;
+  width: 227px;
+  height: 100%;
+  float:left;
+  background-image: url(images/line-l.png);
+  background-position: right;
+  background-repeat: repeat-y;
+}
+
+#lichkab {
+  margin: 80px auto 0;
+  padding: 35px 0 0 25px;
+  width:  190px;
+  height: 185px;
+  background-image: url(images/lk-bg.png);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+
+.login {
+  padding: 0px 5px 0px 5px;
+  font: 12px/18px Tahoma, Arial, Verdana, sans-serif;
+  color: #fff;
+}
+
+#box3 {
+  margin: 0 20px 0 5px;
+  width: 675px;
+  height: 100%;
+  float:left;
+}
+
+.novosti {
+  width: 100%;
+  height: 220px;
+  background-image: url(images/gorline.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+.novosti h1 {
+  padding: 15px 0 0 5px;
+  font: 16px/18px Tahoma, Arial, Verdana, sans-serif;
+  color: #ffaa00;
+  text-align: center;
+}
+
+.paragrnov {
+  padding: 5px 10px 10px 10px;
+  font: 12px/18px Tahoma, Arial, Verdana, sans-serif;
+  color: #eee;
+  text-align: justify;
+}
+
+#kastanik {
+  margin-top: -341px;
+  margin-left: 34px;
+  background-image: url("images/content/kastanik.png");
+  position: relative;
+  width: 213px;
+  height: 331px;
+  z-index: 2;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+  margin: -222px 0 0 -148px;
+  width: 1280px;
+	height: 315px;
+	background-image: url(images/footer.jpg);
+  position: relative;
+  z-index: 1;
+}
+
+#fotertxt {
+color: #ffffff;
+font: 12px/18px Tahoma, Arial, Verdana, sans-serif;
+padding: 260px 0 0 180px;
+}
+
+#fotertxt a {
+	color: #ffff00;
+	outline: none;
+	text-decoration: underline;
+}
+#fotertxt a:hover {
+	text-decoration: none;
+}
+
+
+
+/* Logo
+-----------------------------------------------------------------------------*/
+#logo {
+  padding: 26px 0 0 0;
+  margin: 0px auto 0;
+  width: 516px;
+  height: 225px;
+}
+
+#logo img{
+  width: 515px;
+  height: 199px;
+}
+
+/* Button
+-----------------------------------------------------------------------------*/
+#button {
+  margin-left: 145px;
+  margin-top: 72px;
+  display:block;
+  width: 191px;
+  height: 189px;
+  text-indent:-9999px;
+  z-index: 3;
+  position: relative;
+}
+
+#button a {
+  display:block;
+  width:100%;
+  height:100%;
+  background:url("images/campaign-monitor-button.png") no-repeat top left;
+  outline:none;
+}
+
+#button a:hover {
+  background-position:0 -189px;
+}
+
+/*Форма для личного кабинета
+---------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+

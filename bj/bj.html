@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>BlackJack</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="player-label" id="dealerLabel">dealer</div>
+    <div class="player-box">
+      <div id="dealerCards" class="player-cards">
+        <div class="card back stack0"></div>
+      </div>
+    </div>
+
+    <h1 id="status">BLACK JACK</h1>
+
+    <div class="player-box">
+      <div id="playerCards" class="player-cards"></div>
+    </div>
+    <div class="player-label" id="playerLabel">place bet</div>
+
+    <ul class="buttons">
+      <li class="hide" id="deal">
+        <a onclick="startGame();">Deal</a>
+      </li>
+      <li class="hide" id="clearBet">
+        <a onclick="DecreaseBet(0);">Clear Bet</a>
+      </li>
+      <li class="hide" id="hit">
+        <a onclick="Hit();">Hit</a>
+      </li>
+      <li class="hide" id="stand">
+        <a onclick="Stand();">Stand</a>
+      </li>
+    </ul>
+
+    <div id="chips">
+      <a class="chip chip1" onmousedown="if(event.shiftKey) { DecreaseBet(1); }   else { IncreaseBet(1); }   return false;"><span>1</span></a>
+      <a class="chip chip5" onmousedown="if(event.shiftKey) { DecreaseBet(5); }   else { IncreaseBet(5); }   return false;"><span>5</span></a>
+      <a class="chip chip10" onmousedown="if(event.shiftKey) { DecreaseBet(10); }  else { IncreaseBet(10); }  return false;"><span>10</span></a>
+      <a class="chip chip25" onmousedown="if(event.shiftKey) { DecreaseBet(25); }  else { IncreaseBet(25); }  return false;"><span>25</span></a>
+      <a class="chip chip100" onmousedown="if(event.shiftKey) { DecreaseBet(100); } else { IncreaseBet(100); } return false;"><span>100</span></a>
+    </div>
+    <!-- .chips -->
+
+  </div>
+  <!-- .wrapper -->
+
+  <footer>
+    <p>BANKROLL
+      <br><span id="bankroll">1000.0</span>
+    </p>
+    <p>BET
+      <br><span id="bet">0.0</span>
+    </p>
+    <p>WIN
+      <br><span id="win">0.0</span>
+    </p>
+  </footer>
+
+  <script src="js/common.js" async></script>
+</body>
+
+</html>

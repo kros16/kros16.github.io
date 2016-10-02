@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <title>Сайт новый</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Описание сайта">
+  <meta name="keywords" content="Ключевые слова">
+  <link rel="shortcut icon" href="http://..." type="image/x-icon">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700&amp;subset=latin,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/fotorama.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+  <header id="header" class="container-fluid">
+    <div class="row">
+      <h1 id="title-main"><a href="#">Юлия Красовская</a></h1>
+      <div id="top-menu" class="col-xs-12">
+        <h1 id="title-mobile"><a href="#">Юлия Красовская</a></h1>
+        <a href="#" class="btn-show-menu"><i class="fa fa-reorder fa-2x"></i></a>
+        <div class="clear"></div>
+        <ul id="top-menu-list">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Портфолио</a></li>
+          <li><a href="#">Серии</a></li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Обо мне</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div> <!-- .row -->
+  </header> <!-- #header -->
+
+  <main id="content" class="container-fluid">
+    <div class="row">
+      <div id="content-slide">
+        <div class="fotorama col-md-12"
+        data-width="100%"
+        data-ratio="1200/600"
+        data-maxwidth="1200"
+        data-autoplay="3000"
+        data-arrows="false"
+        data-transition="crossfade"
+        data-swipe="true"
+        data-loop="true"
+        data-shuffle="false"
+        data-maxheight="600px">
+          <img src="images/33.jpg">
+          <img src="images/portret_1280.jpg">
+          <img src="images/33.jpg">
+          <img src="images/portret_1280.jpg">
+        </div> <!-- .fotorama -->
+      </div> <!-- #content-slide -->
+    </div> <!-- .row -->
+  </main> <!-- #content -->
+
+</div> <!-- #wrapper -->
+
+<footer id="footer" class="container-fluid">
+  <div class="row">
+    <div id="sign-in">
+      <a href="#" title="Вход | Для администратора"><i class="fa fa-lock fa-2x"></i></a>
+    </div>
+    <div id="social" class="">
+      <a href="http://vk.com/yuliakrasovska" class="vk-icon" title="Страница Вконтакте" target="_blank">B</a>
+      <a href="http://facebook.com/y.o.krasovska" title="Страница Facebook" target="_blank">
+        <i class="fa fa-facebook-official"></i>
+      </a>
+      <a href="#" title="Страница Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div> <!-- #social -->
+    <p class="copy col-md-12">mysite.com &copy; 2015</p>
+    <a href="#header" id="scroll-on-top" class="hidden-xs"><i class="fa fa-chevron-circle-up fa-2x"></i></a>
+  </div> <!-- .row -->
+</footer> <!-- #footer -->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<script src="js/jquery.min.js"></script>
+<script src="js/fotorama.js"></script>
+<script src="js/workscripts.js "></script>
+
+</body>
+</html>
