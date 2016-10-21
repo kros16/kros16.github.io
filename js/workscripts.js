@@ -31,18 +31,18 @@ $( document ).ready(function(){
     });
 
     // skype status
-    var login = "v.o.krasovsky";
-    $.ajax({
-    	url: "http://kros.96.lt/skypestatus.php",
-    	method: "GET",
-    	data: { slogin : login },
-    	success: function( res ){
-			$( ".fa-skype" ).css('color', res);
-		},
-		error: function(){
-			return false;
-		}
-    });
+  //   var login = "v.o.krasovsky";
+  //   $.ajax({
+  //   	url: "http://kros.96.lt/skypestatus.php",
+  //   	method: "GET",
+  //   	data: { slogin : login },
+  //   	success: function( res ){
+		// 	$( ".fa-skype" ).css('color', res);
+		// },
+		// error: function(){
+		// 	return false;
+		// }
+  //   });
 
 
 });
